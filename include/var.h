@@ -94,6 +94,7 @@ class var
                        * (string text, int integer, char character, float floating...)
               *
               * # Please note the names of the variables. They are constant.
+              *               
               **/
               
               string text;
