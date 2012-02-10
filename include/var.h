@@ -32,6 +32,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef VARIABLE_DECLARATION_HEADER
 #define VARIABLE_DECLARATION_HEADER
 
+#ifdef MISSING_NO_HEADER
+#define NO_HEADER (-2)
+#endif
+
 #include <iostream>
 #include <cstdlib>
 #include <algorithm>
